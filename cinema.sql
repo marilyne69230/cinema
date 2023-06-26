@@ -40,18 +40,18 @@ CREATE TABLE IF NOT EXISTS `movie` (
 --
 
 INSERT INTO `movie` (`id_movie`, `name`, `release_date`) VALUES
-(1, 'Time out', '0000-00-00'),
-(2, 'La planète des singes', '0000-00-00'),
-(3, 'Destination finale', '0000-00-00'),
-(4, 'Harry Potter', '0000-00-00'),
-(5, 'Titanic', '0000-00-00'),
-(6, 'Taxi', '0000-00-00'),
-(7, 'Avengers', '0000-00-00'),
-(8, 'Mission impossible', '0000-00-00'),
-(9, 'James Bond', '0000-00-00'),
-(10, 'Intouchable', '0000-00-00'),
-(11, 'Fast and furious', '0000-00-00'),
-(12, 'Le livre de la jungle', '0000-00-00');
+(1, 'Time out', '1950-01-01'),
+(2, 'La planète des singes', '2020-01-01'),
+(3, 'Destination finale', '1930-02-20'),
+(4, 'Harry Potter', '1960-05-15'),
+(5, 'Titanic', '2010-04-25'),
+(6, 'Taxi', '2023-05-14'),
+(7, 'Avengers', '1967-08-09'),
+(8, 'Mission impossible', '1965-06-26'),
+(9, 'James Bond', '2011-06-06'),
+(10, 'Intouchable', '2015-05-10'),
+(11, 'Fast and furious', '1980-06-13'),
+(12, 'Le livre de la jungle', '1990-08-18');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
